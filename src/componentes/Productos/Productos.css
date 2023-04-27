@@ -1,0 +1,13 @@
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 11rem;
+    margin: 3rem;
+}
+
+img{
+    width: 10rem;
+}
+
