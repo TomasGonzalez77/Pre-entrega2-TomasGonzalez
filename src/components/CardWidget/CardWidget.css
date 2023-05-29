@@ -1,4 +1,12 @@
 .imgCarrito{
-    width: 3rem;
+    width: 2rem;
     cursor: pointer;
+}
+
+.carrito{
+    margin: 1rem;
+}
+
+.carrito:hover{
+    transform: scale(1.2);
 }

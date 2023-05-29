@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import ItemList from '../ItemList/ItemList'
+import ItemCount from '../ItemCount/ItemCount'
 import { getProductos, getProductosPorCategoria } from '../../asyncmock'
 import { useParams } from 'react-router-dom'
 
@@ -21,7 +22,7 @@ const ItemListContainer = ({ greeting }) => {
     <>
       <h2> {greeting} </h2>
       <ItemList productos={productos} />
-      
+      <ItemCount />
     </>
   )
 }

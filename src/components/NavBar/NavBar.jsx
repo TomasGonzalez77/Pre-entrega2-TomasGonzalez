@@ -5,24 +5,29 @@ import { NavLink, Link } from 'react-router-dom'
 const NavBar = () => {
     return (
         <header>
-            <Link to={'/'}>
-                <h1>Tienda de padel Online</h1>
+            <Link className={"nav"} to={'/'}>
+                <h1>Todo Padel Online</h1>
             </Link>
 
             <nav>
                 <ul>
                     <li>
-                        <NavLink to={`/categoria/paletas`}>
+                        <NavLink className={"nav"} to={`/categoria/paletas`}>
                             Paletas
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to={`/categoria/complementos`}>
+                        <NavLink className={"nav"} to={`/categoria/complementos`}>
                             Complementos
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to={`/categoria/zapatillas`}>
+                        <NavLink className={"nav"} to={`/categoria/ropa`}>
+                            Ropa
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink className={"nav"} to={`/categoria/zapatillas`}>
                             Zapatillas
                         </NavLink>
                     </li>

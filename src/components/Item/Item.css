@@ -10,7 +10,13 @@
     align-items: center;
     color: rgb(187, 186, 186);
     text-align: center;
+    transition: transform 0.3s ease;
 }
+
+.cardProducto:hover{
+    transform: scale(1.2);
+}
+
 .link button{
     color: rgb(188, 244, 58);
     background-color: rgb(33, 33, 33);
@@ -20,8 +26,11 @@
     border-color: rgb(33, 33, 33);
     border-radius: 3px;
     background-color: rgb(98, 98, 98);
+    color: aqua;
 }
 .imgProducto {
     width: 150px;
     object-fit: contain;
+   
 }
+
