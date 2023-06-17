@@ -1,41 +1,36 @@
-import CardWidget from '../CardWidget/CardWidget'
+import CartWidget from "../CartWidget/CartWidget"
 import './NavBar.css'
-import { NavLink, Link } from 'react-router-dom'
+import { NavLink, Link } from "react-router-dom"
 
 const NavBar = () => {
+    const imgTD = "https://tomasgonzalez77.github.io/tomasgonzalez-proyectofinal/image/dondequiero.png";
     return (
         <header>
-            <Link className={"nav"} to={'/'}>
-                <h1>Todo Padel Online</h1>
+            <Link to={"/"}>
+                <img className="imgTD" src={imgTD} alt="Logo Todo Padel" />
             </Link>
 
             <nav>
                 <ul>
                     <li>
-                        <NavLink className={"nav"} to={`/categoria/paletas`}>
-                            Paletas
-                        </NavLink>
+                        <NavLink className="nav" activeClassName="active" to={`/categoria/paletas`}> Paletas </NavLink>
                     </li>
                     <li>
-                        <NavLink className={"nav"} to={`/categoria/complementos`}>
-                            Complementos
-                        </NavLink>
+                        <NavLink className="nav" activeClassName="active" to={`/categoria/complementos`}> Complementos </NavLink>
                     </li>
                     <li>
-                        <NavLink className={"nav"} to={`/categoria/ropa`}>
-                            Ropa
-                        </NavLink>
+                        <NavLink className="nav" activeClassName="active" to={`/categoria/ropa`}> Ropa </NavLink>
                     </li>
                     <li>
-                        <NavLink className={"nav"} to={`/categoria/zapatillas`}>
-                            Zapatillas
-                        </NavLink>
-                    </li>
+                        <NavLink className="nav" activeClassName="active" to={`/categoria/zapatillas`}> Zapatillas </NavLink>
+                   </li>
+
                 </ul>
             </nav>
-            <CardWidget />
-        </header >
 
+            <CartWidget className="imgCarrito"/>
+
+        </header>
     )
 }
 

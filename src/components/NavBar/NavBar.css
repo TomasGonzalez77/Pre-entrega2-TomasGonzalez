@@ -26,6 +26,20 @@ li:hover{
  color: aqua;   
  }
 
-h1{
+.imgTD{
     margin: 1rem;
+    width: 10rem;
+}
+
+.imgTD:hover{
+    scale: 110%;
+}
+
+.imgCarrito{
+    width: 3rem;
+    margin: 1rem;
+}
+
+.imgCarrito:hover{
+    scale: 110%;
 }

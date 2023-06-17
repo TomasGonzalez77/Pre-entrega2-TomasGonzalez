@@ -1,0 +1,35 @@
+div {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+   
+  }
+  
+  h4 {
+    margin: 0;
+    
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  .btnEliminar{
+    padding: 5px 10px;
+    border: 1px solid wheat;
+    background-color: rgb(68, 68, 68);
+    cursor: pointer;
+    color: yellowgreen;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .btnEliminar:hover {
+    background-color:  rgb(98, 98, 98);
+    color: aqua;
+  }
+  
+  hr {
+    margin-top: 10px;
+  }
+  

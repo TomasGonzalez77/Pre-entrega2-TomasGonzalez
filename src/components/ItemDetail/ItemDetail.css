@@ -1,29 +1,54 @@
 .contenedorItem {
-    display: grid;
-    grid-template-areas:
-    "img descripcionProd descripcionProd"
-    "img contador btnCart";
-    margin: 1rem 2rem 0 2rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 20px;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(33, 33, 33);
 }
-.descripContenedor{
-    padding: 1rem;
+
+.contenedorItem .imagen {
+  grid-row: 1 / -1;
 }
-.contenedorItem img{
-    width: 30rem;
+
+.contenedorItem .texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-img {
-    width: 50vw;
+
+.contenedorItem h2,
+.contenedorItem h3,
+.contenedorItem p {
+  margin: 0;
 }
-.descripContenedor{
-    grid-area: descripcionProd;
+
+.contenedorItem .botones {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  grid-column: 2 / -1;
+  grid-row: 1 / -1;
 }
-img{
-    grid-area: img;
+
+.contenedorItem .botones .miBtn {
+  margin-top: 10px;
 }
-.contadorContainer{
-    grid-area: contador;
-    justify-self: end;
+
+.miBtn {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
 }
-button{
-    grid-area: btnCart;
+
+.miBtn:hover {
+  background-color: #45a049;
 }
+

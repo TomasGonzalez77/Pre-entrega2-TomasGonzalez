@@ -1,3 +1,15 @@
-.imgCarrito {
-    width: 2rem;
+.imgCarrito{
+    width: 3rem;
+    font-size: 2rem;
+}
+.imgCarrito:hover{
+    color: #eeee;
+    transition: .2s;
+}
+icon:hover{
+    background-color: #393E46;
+}
+.numCart{
+    text-decoration: none;
+    color: white;
 }

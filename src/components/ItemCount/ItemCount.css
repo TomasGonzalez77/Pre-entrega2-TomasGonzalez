@@ -6,22 +6,42 @@
     align-items: center;
     margin: 0 25px 0 0;
 }
+.contadorContainer p{
+    font-size: 1.1rem;
+    margin: 0 15px 0 15px;
+}
+.cartCountContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .btnContador{
-    color: #16213E;
+    color: white;
+    font-family: 'poppins';
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(#e00597, #760fb6);
+    padding: .5rem;
     cursor: pointer;
-    margin: 0 10px 0 10px;
+    transition: .2s;
 }
 .btnContador:hover{
-    border-color: #DF2E38;
-    border-radius: 3px;
-    background-color: #FFE3E1;
+    background-image: none;
+    background-color: greenyellow;
+    color: #393E46;
 }
 .btnAgregar{
-    max-width: 30%;
-    max-height: 2rem;
+    color: white;
+    font-family: 'poppins';
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(#e00597, #760fb6);
+    padding: .5rem;
+    cursor: pointer;
+    transition: .2s;
 }
 .btnAgregar:hover{
-    border-color: #DF2E38;
-    border-radius: 3px;
-    background-color: #FFE3E1;
+    background-image: none;
+    background-color: greenyellow;
+    color: #393E46;
 }

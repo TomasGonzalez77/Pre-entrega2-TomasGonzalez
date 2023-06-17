@@ -15,6 +15,7 @@
 
 .cardProducto:hover{
     transform: scale(1.2);
+    background-color: rgb(63, 62, 62);
 }
 
 .link button{
@@ -33,4 +34,3 @@
     object-fit: contain;
    
 }
-
