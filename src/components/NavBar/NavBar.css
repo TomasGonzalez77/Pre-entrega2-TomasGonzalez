@@ -13,33 +13,71 @@ li {
     cursor: pointer;
 }
 
-li:hover{
+li:hover {
     transform: scale(1.4);
 }
 
-.nav{
+.nav {
     color: rgba(172, 255, 47, 0.723);
     text-decoration: none;
 }
 
-.nav:hover{
- color: aqua;   
- }
+.nav:hover {
+    color: aqua;
+}
 
-.imgTD{
+.imgTD {
     margin: 1rem;
     width: 10rem;
 }
 
-.imgTD:hover{
+.imgTD:hover {
     scale: 110%;
 }
 
-.imgCarrito{
+.imgCarrito {
     width: 3rem;
     margin: 1rem;
 }
 
-.imgCarrito:hover{
+.imgCarrito:hover {
     scale: 110%;
+}
+
+/*Media Querys*/
+
+@media screen and (max-width: 1440) {}
+
+@media screen and (max-width: 1024) {}
+
+@media screen and (max-width: 768px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .li {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .li {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .li {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
 }

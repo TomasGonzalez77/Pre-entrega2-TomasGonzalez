@@ -1,3 +1,5 @@
+import React from 'react'
+
 import { useState, createContext } from "react";
 
 export const CarritoContext = createContext({ 
@@ -52,3 +54,6 @@ export const CarritoProvider = ({ children }) => {
         </CarritoContext.Provider>
     )
 }
+
+
+export default CarritoContext
