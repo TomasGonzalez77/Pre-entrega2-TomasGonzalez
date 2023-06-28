@@ -8,6 +8,7 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: rgb(33, 33, 33);
+  width: auto;
 }
 
 .contenedorItem .imagen {
@@ -52,3 +53,25 @@
   background-color: #45a049;
 }
 
+/* Media queries */
+@media screen and (max-width: 480px) {
+  .contenedorItem {
+    grid-template-columns: 1fr;
+  }
+
+  .contenedorItem .imagen {
+    grid-row: auto;
+  }
+
+  .contenedorItem .botones {
+    grid-column: auto;
+    grid-row: auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .contenedorItem {
+    margin: 10px;
+    padding: 10px;
+  }
+}
