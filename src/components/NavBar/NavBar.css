@@ -46,34 +46,22 @@ li:hover {
 
 /*Media Querys*/
 
-
-@media screen and (max-width: 480px) {
-    header {
-        display: flex;
-        flex-direction: column;
-       justify-content: center;
-
-    }
-
-    .li {
-        width: auto;
-        display: flex;
-        flex-direction: column;
-        cursor: pointer;
-    }
-
-}
-
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 760px) {
     header {
         display: flex;
         flex-direction: column;
         justify-content: center;
+
     }
 
-    .li {
+}
+
+@media screen and (max-width: 465px) {
+
+    .nav-list {
         display: flex;
         flex-direction: column;
         cursor: pointer;
     }
+
 }
