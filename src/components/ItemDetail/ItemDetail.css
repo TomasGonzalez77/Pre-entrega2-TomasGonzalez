@@ -12,6 +12,10 @@
   width: auto;
 }
 
+img {
+  max-width: 300px;
+}
+
 .contenedorItem .imagen {
   grid-row: 1 / -1;
 }
@@ -67,6 +71,10 @@
   .contenedorItem .botones {
     grid-column: auto;
     grid-row: auto;
+  }
+
+  img{
+    max-width: 160px;
   }
 }
 
