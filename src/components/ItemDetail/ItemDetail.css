@@ -47,15 +47,25 @@ img {
 
 .miBtn {
   padding: 10px 20px;
-  background-color: #4caf50;
-  color: white;
   border: none;
   border-radius: 5px;
   text-decoration: none;
 }
 
-.miBtn:hover {
-  background-color: #45a049;
+.TCbtn {
+  color: yellowgreen;
+  padding: 0.5rem 1rem;
+  margin-top: 10rem;
+  background-color: #2b2e2b;
+  border: none;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  height: 2rem;
+
+}
+
+.TCbtn:hover {
+  background-color: #363936;
 }
 
 /* Media queries */
@@ -73,7 +83,7 @@ img {
     grid-row: auto;
   }
 
-  img{
+  img {
     max-width: 160px;
   }
 }
